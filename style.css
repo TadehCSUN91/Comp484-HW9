@@ -1,0 +1,50 @@
+/* Extra credit: light styling so each section reads as its own card/panel
+   Color scheme: black background, red accents, white text */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000000;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #e50914;
+}
+
+.intro {
+    text-align: center;
+    color: #cccccc;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.card {
+    background: #1a1a1a;
+    max-width: 650px;
+    margin: 0 auto 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    border: 1px solid #e50914;
+    box-shadow: 0 2px 10px rgba(229, 9, 20, 0.3);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #e50914;
+    border-bottom: 2px solid #e50914;
+    padding-bottom: 8px;
+}
+
+.result-line {
+    margin: 6px 0;
+    color: #f0f0f0;
+}
+
+.message {
+    font-weight: bold;
+    color: #ff4d4d;
+}
